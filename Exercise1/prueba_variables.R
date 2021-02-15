@@ -203,7 +203,7 @@ table(factor_survey_vector)
 # convierte las labels a valores numericos
 unclass(factor_survey_vector)
 
-
+plot(factor_survey_vector)
 #############
 # MATRICES  #
 #############
@@ -241,6 +241,7 @@ summary(peliculas)
 
 # resta 5 a la matriz
 peliculas - 5
+
 
 # sumar matriz consigo misma
 peliculas + peliculas
