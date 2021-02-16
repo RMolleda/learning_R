@@ -49,3 +49,20 @@ for (i in 1:length(x))
   print(y)
 
 # Ejercicio 16 
+
+cambia <- function(df) {
+  v <- data.frame(df=1:length(df))
+} 
+
+# Ejercicio 20
+
+revertir <- function(vec) {
+  reversed <- rev(vec)
+}
+
+# Ejercicio 23
+
+convertirdf <- function(columna) {
+  convertido <- setNames(as.character(columna))
+}
+
